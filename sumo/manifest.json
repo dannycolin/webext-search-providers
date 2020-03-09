@@ -1,7 +1,7 @@
 {
 	"name": "Support Moz (SUMO) Search",
 	"description": "Add Mozilla Support to your search engine",
-	"version": "0.1",
+	"version": "0.1.1",
 	"manifest_version": 2,
 	"applications":{
 		"gecko": {
@@ -23,7 +23,7 @@
 		"search_provider": {
 			"name": "Mozilla Support",
       "keyword": "@sumo",
-			"search_url": "https://support.mozilla.org/search?={searchTerms}"
+			"search_url": "https://support.mozilla.org/search?q={searchTerms}"
 		}
 	}
 }
