@@ -1,0 +1,29 @@
+{
+	"name": "Hello One-Click Search",
+	"description": "Add Hello (https://beta.sayhello.so) to your One-Click search engines. Thanks to https://dannycolin.com",
+	"version": "0.1",
+	"manifest_version": 2,
+	"applications":{
+		"gecko": {
+			"id": "hello@search.pakseresht.eu",
+			"strict_min_version": "64.0"
+		}
+	},
+	"developer": {
+		"name": "Niusha Pakseresht",
+		"url": "https://pakseresht.eu"
+	},
+	"icons": {
+		"16": "favicon.png"
+	},
+	"web_accessible_resources": [
+		"favicon.png"
+	],
+  "chrome_settings_overrides": {
+		"search_provider": {
+			"name": "Hello",
+      "keyword": "@hello",
+			"search_url": "https://beta.sayhello.so/search?q={searchTerms}"
+		}
+	}
+}
