@@ -23,7 +23,7 @@
 		"search_provider": {
 			"name": "GitHub",
       "keyword": "@gh",
-			"search_url": "https://github.com/search?q={searchTerms}"
+			"search_url": "https://github.com/search?type=code&q={searchTerms}"
 		}
 	}
 }
